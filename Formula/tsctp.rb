@@ -6,7 +6,6 @@ class Tsctp < Formula
   license "BSD-3-Clause"
 
   depends_on "cmake" => :build
-  depends_on "lksctp-tools"
   depends_on :linux
 
   def install
@@ -16,6 +15,6 @@ class Tsctp < Formula
   end
 
   test do
-    system "#{bin}/tsctp", "-v"
+    system bin/"tsctp", "-v"
   end
 end
