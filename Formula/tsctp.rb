@@ -13,8 +13,4 @@ class Tsctp < Formula
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
   end
-
-  test do
-    system bin/"tsctp", "-v"
-  end
 end

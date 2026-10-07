@@ -31,6 +31,6 @@ class Bibtexconv < Formula
   end
 
   test do
-    system "#{bin}/bibtexconv", "--version"
+    system bin/"bibtexconv", "--version"
   end
 end

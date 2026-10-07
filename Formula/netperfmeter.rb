@@ -42,6 +42,6 @@ class Netperfmeter < Formula
   end
 
   test do
-    system "#{bin}/netperfmeter", "--version"
+    system bin/"netperfmeter", "--version"
   end
 end

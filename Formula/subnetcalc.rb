@@ -17,6 +17,6 @@ class Subnetcalc < Formula
   end
 
   test do
-    system "#{bin}/subnetcalc", "192.168.1.1/24"
+    system bin/"subnetcalc", "192.168.1.1/24"
   end
 end
